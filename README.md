@@ -37,7 +37,7 @@ The provider docs currently describe those patterns at https://cricketliveapi.co
 5. If your provider uses different routes or response fields, update the two API routes in `server.js` and the field adapters in `public/index.html` to match the provider's official docs.
 
 **Security:** Never put a secret API token in browser JavaScript. This project keeps the token on the Node server and the browser calls your own `/api/...` routes. Do not commit `.env` to a public repository.
-
+International matches score on first home page
 ## Included features
 - Responsive match list and match filters
 - Demo/live status indicator
@@ -45,7 +45,7 @@ The provider docs currently describe those patterns at https://cricketliveapi.co
 - Batter runs, balls, fours, sixes, strike rate where supplied
 - Bowler overs, maidens, runs, wickets, economy where supplied
 - Team score, innings, wickets, overs, run rate where supplied
-- Auto-refresh every 30 seconds in API mode
+- Auto-refresh every 1 seconds in API mode
 - API errors displayed in the UI
 
 ## Notes
